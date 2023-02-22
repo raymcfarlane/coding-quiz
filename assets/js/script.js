@@ -20,6 +20,14 @@ var myQuestions = [
 ];
 
 loadQuestion.addEventlistener("click", myQuestions);
+quizContainer.addEventlistener("click",quizContainer);
+submit.addEventListener("click",submit);
+resultsContainer.addEventListener("click",resultsContainer);
+answers.addEventListener("click",answers);
+
+
+
+
 
 
 
