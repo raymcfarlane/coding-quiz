@@ -1,9 +1,9 @@
-var quizContainer = document.getElementById("quizContainer");
-var loadQuestion= document.getElementById("start");
-var loadNextQuestion = document.getElementById("next");
-var submit = document.getElementById("submit");
-var resultsContainer = document.getElementById("results");
-var answers = document.getElementById("answers");
+var quizContainer = document.getElementById("#quizContainer");
+var loadQuestion= document.getElementById("#start");
+var loadNextQuestion = document.getElementById("#next");
+var submit = document.getElementById("#submit");
+var resultsContainer = document.getElementById("#results");
+var answers = document.getElementById("#answers");
 
 
 var myQuestions = [
@@ -21,6 +21,5 @@ var myQuestions = [
 
 loadQuestion.addEventlistener("click", myQuestions);
 
-function loadQuestion = {
-    myQuestions
-}
+
+
