@@ -1,82 +1,73 @@
-section {
-    flex: 0 auto;
-    padding: 8px;
-    margin-top: 50px;
-    background-color: white;
-    border-radius: 8px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3a073a;
   }
-  
-  .word-guess {
-    width: 55vw;
-    height: 400px;
+
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fa128e;
+    background-color: #3a073a;
+
   }
-  
-  .results {
-    width: 30vw;
-    height: 400px;
-  }
-  
-  .card {
-    background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,124,33,0.604079131652661) 100%);
-    border: 1px solid #eceff1;
-    border-radius: 8px;
-    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
-      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
-    margin: auto;
+
+#quizContainer {
+    margin: 20px auto;
     padding: 20px;
+    max-width: 600px;
+    border: 1px solid #f5eded;
+    background-color: #dc87de;
+    box-shadow: 0 0 10px rgba(55, 6, 51, 0.1);
   }
   
-  .word-blanks {
-    line-height: 360px;
+  #question {
+    margin-bottom: 10px;
+    align-content: center;
   }
   
-  .large-font {
-    font-size: 3.5em;
-    text-align:center;
+  #choices label {
+    display: block;
+    margin-bottom: 5px;
   }
-  
-  .timer {
-    height: 240px;
-    padding: 10px;
-    background: #13293d;
-    color: #fff;
+
+  #scoreContainer {
+    margin: 20px auto;
     text-align: center;
   }
-  
-  .timer-text {
-    padding: 55px;
+
+  #scoreContainer h3 {
+    margin-bottom: 10px;
+  }
+
+  #scoreContainer span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #submitBtn {
+  background: radial-gradient(circle, rgb(240, 237, 239) 0%, rgba(97, 10, 58, 0.954) 100%);
+  border-radius: 8px;
+  color: #3d1329;
+  cursor: pointer;
+  font-size: 0.75em;
+  line-height: 55px;
+  max-width: 100px;
+  text-align: center;
+  transition-duration: 0.15s;
+  }
+
+  #timer {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #a20b0b;
   }
   
-  @media screen and (max-width: 1183px) {
-    main {
-      flex-direction: column;
-    }
-  
-    .word-guess,
-    .results {
-      width: 90vw;
-    }
-  
-    section {
-      background-color: white;
-      margin: 20px auto;
-      width: 92vw;
-    }
+  #timer span {
+    font-weight: bold;
+    color: #c4e22f;
   }
-  
-  @media screen and (max-width: 504px) {
-    .large-font {
-      font-size: 2em;
-    }
-  
-    .reset-button {
-      font-size: 12px;
-      width: 20ox;
-      
-    }
-  
-    .timer {
-      height: 200px;
-    }
    
-  

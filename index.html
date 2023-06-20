@@ -1,44 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Ray Code Quiz</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>      
-     </head>
-      <body>
-        <header>
-          <div class= "large-font">Coding Quiz</div>
-          <button class="start-button">Start</button>
-        </header>
-    
-        <main>
-          <section>
-            <div class="card coding-quiz">
-              <div class="large-font word-blanks">J _ v _ S c r_ _t</div>
-            </div>
-          </section>
-    
-          <section>
-            <div class="card results">
-              <div class = "win-loss-container">
-              <div>
-              <h2>Wins: <span class="win">0 </span> </h2>
-              <h2>Losses: <span class="lose">0</span></h2>
-            </div>
-              <button class="reset-button">Reset Score</button>
-          </div>
-              <div class= "card timer">
-                <div class = "timer-text">
-                <div class="large-font timer-count">10</div>
-                <h3>seconds remaining</h3>
-              </div>
-            
-            </div>
-          </section>
-        </main>
+  <title>Ray Coding Quiz</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+  <h1>Coding Quiz</h1>
+  
+  <div id="quizContainer">
+    <div id="question"></div>
+    <div id="choices"></div>
+    <button id="submitBtn">Submit</button>
+    <div id="quizContainer">
+        <div id="timer">Time Remaining: <span id="timeRemaining">60s</span></div>
+  <div id="scoreContainer">
     </div>
-    <script src="./Assets/js/script.js"></script>
+    <div>
+    <h3>High Score: <span id="highScore">0</span></h3>
+  </div>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
