@@ -13,7 +13,9 @@ I updated the quiz code functionality and styling now that I have an understandi
 
 ## Usage
  - Images:
-  ![]()
+ - ![CodingQuiz](https://github.com/raymcfarlane/coding-quiz/assets/122712555/1cf2eb4e-1516-466d-83a3-cfd73cd6f53a)
+ - ![Completed quiz](https://github.com/raymcfarlane/coding-quiz/assets/122712555/cd0b9fa6-b2f7-4ae3-88f9-fa5b23b7d7e6)
+
 
 ## License
 Copyright <2023> <Raynica McFarlane>
